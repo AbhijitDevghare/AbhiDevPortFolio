@@ -1,0 +1,47 @@
+/* Hero.css */
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Animate text section */
+.text-section {
+  animation: fadeInUp 1s ease forwards;
+}
+
+/* Animate image section with slight delay */
+.image-section {
+  animation: fadeInUp 1.2s ease forwards;
+}
+
+/* Staggered animation delays for elements inside text-section */
+.text-section h1 {
+  animation-delay: 0.3s;
+}
+
+.text-section h2 {
+  animation-delay: 0.6s;
+}
+
+.text-section p {
+  animation-delay: 0.9s;
+}
+
+.text-section .social-icons {
+  animation-delay: 1.2s;
+}
+
+.text-section .resume-button {
+  animation-delay: 1.5s;
+}
+
+.image-section img {
+  animation-delay: 1.8s;
+}
