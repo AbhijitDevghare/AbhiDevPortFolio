@@ -125,7 +125,7 @@ function About() {
           {[
             { number: "2+", label: "Years of Learning" },
             { number: "10+", label: "Projects Completed" },
-            { number: "1000+", label: "GitHub Contributions" },
+            { number: "80+", label: "GitHub Contributions" },
           ].map(({ number, label }) => (
             <div
               key={label}
