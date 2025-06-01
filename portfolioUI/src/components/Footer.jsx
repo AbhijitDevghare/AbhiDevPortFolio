@@ -33,7 +33,7 @@ function Footer() {
               icon: <FaTwitter aria-hidden="true" />
             },
             {
-              href: "mailto:your.kishordevghare6@gmail.com",
+              href: "mailto:kishordevghare6@gmail.com",
               label: "Email",
               icon: <FaEnvelope aria-hidden="true" />
             }
