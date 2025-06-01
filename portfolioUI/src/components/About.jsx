@@ -199,7 +199,7 @@ function About() {
           Want to collaborate or discuss an idea? I’m just an email away.
         </p>
         <a
-          href="mailto:your.email@example.com"
+          href="mailto:kishordevghare6@gmail.com"
           className="inline-flex items-center gap-2 px-6 py-3 text-white bg-blue-600 rounded-full hover:bg-blue-700 transition"
           aria-label="Send email to Abhi"
         >

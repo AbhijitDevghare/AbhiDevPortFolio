@@ -18,22 +18,22 @@ function Footer() {
         <div className="flex gap-8 text-3xl">
           {[
             {
-              href: "https://github.com/yourusername",
+              href: "https://github.com/AbhijitDevghare",
               label: "GitHub",
               icon: <FaGithub aria-hidden="true" />
             },
             {
-              href: "https://linkedin.com/in/yourusername",
+              href: "https://linkedin.com/in/abhijit-devghare-b54b2031b",
               label: "LinkedIn",
               icon: <FaLinkedin aria-hidden="true" />
             },
             {
-              href: "https://twitter.com/yourusername",
+              href: "https://twitter.com/AbhijitDev3592",
               label: "Twitter",
               icon: <FaTwitter aria-hidden="true" />
             },
             {
-              href: "mailto:your.email@example.com",
+              href: "mailto:your.kishordevghare6@gmail.com",
               label: "Email",
               icon: <FaEnvelope aria-hidden="true" />
             }
