@@ -164,7 +164,7 @@ function About() {
           <li>
             <div className="text-blue-900 font-bold text-lg">2024</div>
             <div className="text-blue-700">
-              Scored a good percentile and taken admission at  well known college name Indira College Of Engineering and Managemnet , Pune to enhance my skills.
+              Scored a good percentile in MCA Cet and taken admission at  well known college name Indira College Of Engineering and Managemnet , Pune to enhance my skills.
             </div>
           </li>
         </ul>
