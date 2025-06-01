@@ -147,7 +147,7 @@ function About() {
           <li>
             <div className="text-blue-900 font-bold text-lg">2022</div>
             <div className="text-blue-700">
-              Started BCA and learned basics of programming.
+              Started BCA and learned basics of programming at Sant Gadge Baba Amravati University.
             </div>
           </li>
           <li>
@@ -164,7 +164,7 @@ function About() {
           <li>
             <div className="text-blue-900 font-bold text-lg">2024</div>
             <div className="text-blue-700">
-              Puruing MCA to  enhance my knowledge
+              Scored a good percentile and taken admission at  well known college name Indira College Of Engineering and Managemnet , Pune to enhance my skills.
             </div>
           </li>
         </ul>
