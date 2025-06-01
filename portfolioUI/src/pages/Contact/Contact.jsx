@@ -3,19 +3,20 @@ import emailjs from "emailjs-com";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 
+
 export default function ContactPage() {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(
-      "service_fgi4jnp",   // Replace with your actual Service ID
-      "template_peordrx",  // Replace with your actual Template ID
+      emailjs.sendForm(
+       import.meta.env.VITE_EMAILJS_SERVICE_ID,
+      import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
       form.current,
-      "eNSqT6nmgAi4Db8Xm"    // Replace with your actual Public Key
+      import.meta.env.VITE_EMAILJS_PUBLIC_KEY
     )
-    .then((result) => {
+      .then((result) => {
       alert("Message sent successfully!");
       form.current.reset();
     })
