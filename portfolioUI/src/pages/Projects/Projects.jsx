@@ -19,7 +19,7 @@ const projects = [
     technologies: ["React", "Express", "MongoDB"],
     image: festImg,
     github: "https://github.com/AbhijitDevghare/fest-registration",
-    live: "https://fest-registration-client.vercel.app/"
+    live: "https://college-registration-website.vercel.app/"
   },
   {
     title: "E-commerce Platform (Electronics)",
